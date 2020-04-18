@@ -1,0 +1,153 @@
+body {
+  font-family: 'Karla', sans-serif;
+  background-color: rgba(201, 201, 201, 0.356);
+}
+
+.container {
+width: 80%;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+padding: 30px;
+margin: auto;
+}
+
+.header {
+  color: white;
+  padding: 20px;
+  background-color:rgb(3, 129, 187);
+}
+
+.header-content {
+  text-align: center;
+}
+
+.profile-image {
+  border-radius: 100px 100px; 
+  margin: auto;
+  border: 2px solid  rgb(236, 197, 91);
+}
+
+.section-heading {
+  font-size: 1.2rem;
+  color:white;
+  background-color: rgb(3, 129, 187);
+  padding: 7px;
+
+}
+
+.profile ul li{
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+
+.about-me p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.skills > li{
+  margin: 10px;
+  font-weight: bold;
+  list-style-type: none;
+}
+
+.hobbies p {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+/* Progress Bar Start */
+.progress-bar{
+  width: 250px;
+  background-color: rgb(236, 197, 91);
+  padding: 3px;
+}
+
+div #coreldraw{
+  background-color: rgb(255, 255, 255);
+  width: 200px;
+  height: 15px;
+}
+
+div #photoshop{
+  background-color: rgb(255, 255, 255);
+  width: 210px;
+  height: 15px;
+}
+
+div .percentage {
+  text-align: right;
+  margin: 0;
+  font-size: smaller;
+}
+
+div #illustrator{
+  background-color: rgb(255, 255, 255);
+  width: 100px;
+  height: 15px;
+}
+
+
+div #html5{
+  background-color: rgb(255, 255, 255);
+  width: 220px;
+  height: 15px;
+}
+
+div #css3{
+  background-color: rgb(255, 255, 255);
+  width: 180px;
+  height: 15px;
+}
+
+div #javascript{
+  background-color: rgb(255, 255, 255);
+  width: 120px;
+  height: 15px;
+}
+/* Progress Bar End */
+
+/* Form Styling */
+.contact-form {
+  width: 70%;
+}
+
+.contact-form h3 {
+  font-size: 2rem;
+  color:  rgb(236, 197, 91);;
+}
+
+
+.contact-form input, textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(3, 129, 187);
+  box-sizing: border-box;
+}
+
+.contact-form label {
+  margin-right: 10px;
+  padding: 10px;
+  text-align: justify;
+}
+
+.contact-form .btn {
+  width: 20%;
+  background-color: rgb(3, 129, 187);
+  color: rgb(255, 255, 255);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+}
+
+@media screen and (max-width: 600px){
+  .contact-form .btn {
+    width: 25%;
+    padding: 7px 10px;
+    font-size: 0.5rem; 
+    text-align: center;
+    
+  }
+}
